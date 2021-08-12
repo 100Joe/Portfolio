@@ -19,7 +19,7 @@ const useStyles = makeStyles({
     marginTop: 10,
   },
   media: {
-    height: 173,
+    height: 160,
     backgroundPosition: 'top'
   },
   card: {

@@ -4,7 +4,7 @@ import TechProficiency from './TechProficiency'
 
 function SubMain() {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', }}>
+    <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '50px' }}>
       <ProjectCard />
       <TechProficiency />
     </div>

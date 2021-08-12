@@ -1,19 +1,17 @@
 import React from 'react'
-
-import About from './About'
 import Footer from './Footer'
 import Navbar from './Navbar'
-
+import LowerMain from './LowerMain'
+import UpperMain from './UpperMain'
 
 import { Container } from '@material-ui/core'
-import SubMain from './SubMain'
 
 function Main() {
   return (
     <Container>
       <Navbar />
-      <About />
-      <SubMain />
+      <UpperMain />
+      <LowerMain />
       <Footer />
     </Container>
   );

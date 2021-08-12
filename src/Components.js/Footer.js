@@ -17,7 +17,9 @@ const useStyle = makeStyles(() => ({
     bottom: 0,
     width: "100%",
     color: "white",
-    textAlign: "center"
+    textAlign: "center",
+    backgroundColor: '#02457A',
+
   },
   icon: {
     margin: "auto",

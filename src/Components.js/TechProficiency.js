@@ -6,12 +6,17 @@ import Typography from '@material-ui/core/Typography';
 import Slider from '@material-ui/core/Slider';
 import CardContent from '@material-ui/core/CardContent';
 import Card from '@material-ui/core/Card';
+import { Height } from '@material-ui/icons';
 
 const useStyles = makeStyles(() => ({
   root: {
     marginTop: 20,
     marginBottom: 60,
     width: '50%',
+    borderWidth: '2px',
+    borderColor: '#333',
+    borderStyle: 'solid',
+    height: '545px'
   },
   Typography: {
     fontWeight: 'bold',
@@ -22,10 +27,12 @@ const useStyles = makeStyles(() => ({
       color: '#333',
       cursor: 'pointer',
     }
-  }, Category: {
+  },
+  Category: {
     fontWeight: 'bold',
-    alignItems: 'center',
+    textAlign: 'center',
     transition: "transform 0.15s ease-in-out",
+    color: '#333',
     '&:hover': {
       backgroundColor: '#fff',
       color: '#333',
@@ -33,6 +40,8 @@ const useStyles = makeStyles(() => ({
     }
   },
   slider: {
+    color: '#333',
+
     '&:hover': {
       color: '#333'
     }
@@ -56,7 +65,6 @@ function TechProficiency() {
           </Typography>
           <Slider
             className={classes.slider}
-            color='secondary'
             value={6}
             max={10}
             valueLabelDisplay="auto"
