@@ -9,6 +9,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    width: "100%"
   },
   sectionLink: {
     marginRight: theme.spacing(2),
@@ -26,7 +27,7 @@ function Navbar() {
   const classes = useStyles();
 
   return (
-    <AppBar position="static">
+    <AppBar className={classes.root}>
       <Toolbar>
         <Typography className={classes.name}>Joseph.Edmonds</Typography>
         <Link to="section__project" className={classes.sectionLink} color="inherit">Projects</Link>
