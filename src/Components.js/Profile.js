@@ -3,15 +3,15 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
 import Avatar from '@material-ui/core/Avatar';
-import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
 import { GitHub, Receipt } from '@material-ui/icons';
-import ReceiptIcon from '@material-ui/icons/Receipt';
 import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
-import WorkOutlineOutlinedIcon from '@material-ui/icons/WorkOutlineOutlined';
+
 import { Button } from '@material-ui/core';
+
+const git = 'https://github.com/100Joe';
+
 
 const useStyles = makeStyles({
   root: {
@@ -57,12 +57,12 @@ function Profile() {
         </Button>
       </CardContent>
       <CardContent className={classes.content}>
-        <Button variant="body2" color="textPrimary" >
+        <Button variant="body2" color="textPrimary" onClick={() => window.open(git)} >
           Github <GitHub />
         </Button>
       </CardContent>
       <CardContent className={classes.content}>
-        <Button variant="body2" color="textPrimary" >
+        <Button variant="body2" color="textPrimary" onClick={() => window.open('mailto:consultingjde@gmail.com')} >
           Email <EmailOutlinedIcon />
         </Button>
       </CardContent>
