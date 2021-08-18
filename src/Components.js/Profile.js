@@ -13,7 +13,7 @@ import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 import WorkOutlineOutlinedIcon from '@material-ui/icons/WorkOutlineOutlined';
 import { Button } from '@material-ui/core';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles({
   root: {
     maxWidth: '50%',
     marginLeft: 'auto',
@@ -22,9 +22,6 @@ const useStyles = makeStyles((theme) => ({
   expand: {
     transform: 'rotate(0deg)',
     marginLeft: 'auto',
-    transition: theme.transitions.create('transform', {
-      duration: theme.transitions.duration.shortest,
-    }),
   },
   expandOpen: {
     transform: 'rotate(180deg)',
@@ -34,7 +31,11 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center'
   },
-}));
+  content: {
+    margin: 'auto',
+    textAlign: 'center'
+  }
+});
 
 function Profile() {
   const classes = useStyles();
@@ -55,24 +56,16 @@ function Profile() {
           Resume <Receipt />
         </Button>
       </CardContent>
-      <CardContent>
+      <CardContent className={classes.content}>
         <Button variant="body2" color="textPrimary" >
           Github <GitHub />
         </Button>
       </CardContent>
-      <CardContent>
+      <CardContent className={classes.content}>
         <Button variant="body2" color="textPrimary" >
           Email <EmailOutlinedIcon />
         </Button>
       </CardContent>
-      <CardContent>
-        <Button variant="body2" color="textPrimary" >
-          Project count <WorkOutlineOutlinedIcon />
-        </Button>
-      </CardContent>
-      <CardActions>
-
-      </CardActions>
     </Card>
   );
 }

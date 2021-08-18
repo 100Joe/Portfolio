@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     width: "100%",
     backgroundColor: '#02457A',
+
   },
   sectionLink: {
     marginRight: theme.spacing(2),
