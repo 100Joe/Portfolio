@@ -5,7 +5,7 @@ import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';
 import Avatar from '@material-ui/core/Avatar';
 import { red } from '@material-ui/core/colors';
-import { GitHub, Receipt } from '@material-ui/icons';
+import { GitHub } from '@material-ui/icons';
 import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 
 import { Button, Typography } from '@material-ui/core';
