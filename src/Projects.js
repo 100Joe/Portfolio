@@ -3,16 +3,16 @@ export const Projects =
     {
       "title": "Amazon-Clone",
       "description": "This project is intended to be a clone of amazon complete with working Stripe payments.",
-      "image": "",
-      "Github": "",
-      "website": "",
+      "image": "images/amazon.jpg",
+      "Github": 'https://github.com/100Joe/Amazon-clone-project',
+      "website": "https://clone-3f9a2.web.app/",
       "id": 1
     },
     {
       "title": "Micro-Blog",
       "description": "This project is intended to be a clone of amazon complete with working Stripe payments.",
       "image": "",
-      "Github": "",
+      "Github": "https://github.com/100Joe/Micro-Blog",
       "website": "",
       "id": 2
     },
@@ -20,48 +20,48 @@ export const Projects =
       "title": "WackJack",
       "description": "This project is intended to be a clone of amazon complete with working Stripe payments.",
       "image": "",
-      "Github": "",
+      "Github": "https://github.com/100Joe/WackJack",
       "website": "",
       "id": 3
     },
     {
       "title": "Quick Note",
       "description": "This project is intended to be a clone of amazon complete with working Stripe payments.",
-      "image": "",
-      "Github": "",
+      "image": "images/quickNotes.jpg",
+      "Github": "https://github.com/100Joe/Quick-Notes",
       "website": "",
       "id": 4
     },
     {
-      "title": "Amazon-Clone",
+      "title": "TBD",
       "description": "This project is intended to be a clone of amazon complete with working Stripe payments.",
       "image": "",
       "Github": "",
       "website": "",
-      "id": 1
+      "id": 5
     },
     {
-      "title": "Micro-Blog",
+      "title": "TBD",
       "description": "This project is intended to be a clone of amazon complete with working Stripe payments.",
       "image": "",
       "Github": "",
       "website": "",
-      "id": 2
+      "id": 6
     },
     {
-      "title": "WackJack",
+      "title": "TBD",
       "description": "This project is intended to be a clone of amazon complete with working Stripe payments.",
       "image": "",
       "Github": "",
       "website": "",
-      "id": 3
+      "id": 7
     },
     {
-      "title": "Quick Note",
+      "title": "TBD",
       "description": "This project is intended to be a clone of amazon complete with working Stripe payments.",
       "image": "",
       "Github": "",
       "website": "",
-      "id": 4
+      "id": 8
     }
   ]

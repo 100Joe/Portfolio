@@ -6,7 +6,6 @@ import Typography from '@material-ui/core/Typography';
 import Slider from '@material-ui/core/Slider';
 import CardContent from '@material-ui/core/CardContent';
 import Card from '@material-ui/core/Card';
-import { Height } from '@material-ui/icons';
 
 const useStyles = makeStyles(() => ({
   root: {

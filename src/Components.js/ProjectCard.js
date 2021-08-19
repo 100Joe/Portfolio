@@ -24,8 +24,6 @@ const useStyles = makeStyles({
   },
   card: {
     border: '1px solid #BCA88E',
-    color: '#fff',
-    backgroundColor: '#fff',
     transition: "transform 0.5s ease-in-out",
     "&:hover": { transform: "scale3d(1.05, 1.05, 1)" },
     cursor: 'pointer',
@@ -53,23 +51,22 @@ function ProjectCard() {
     <Container className={classes.root} >
       <Grid container spacing={4}>
         {Projects.map((project, id) => (
-          <Grid item key={project.id} xs={12} sm={9} md={3}>
+          <Grid item key={id} xs={12} sm={6} md={3}>
             <Fade top>
               <Card className={classes.card} elevation={15}>
                 <CardMedia
                   className={classes.media}
                   image={project.image}
-                  title={project.name}
                 />
                 <CardContent>
                   <Typography variant='h6' color='primary' className={classes.body1}>{project.title}</Typography>
                 </CardContent>
-                <Button onClick={() => window.open(project.url)}
+                <Button onClick={() => window.open(project.Github)}
                   className={classes.button}
                 >
                   <GitHub />
                 </Button>
-                <Button onClick={() => window.open(project.url)}
+                <Button onClick={() => window.open(project.website)}
                   className={classes.button}
                 >
                   <WebIcon />

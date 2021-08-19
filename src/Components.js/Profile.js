@@ -8,7 +8,7 @@ import { red } from '@material-ui/core/colors';
 import { GitHub, Receipt } from '@material-ui/icons';
 import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 
-import { Button } from '@material-ui/core';
+import { Button, Typography } from '@material-ui/core';
 
 const git = 'https://github.com/100Joe';
 
@@ -49,13 +49,8 @@ function Profile() {
           </Avatar>
         }
         title="Joseph Edmonds"
-        subheader="Welcome to my Portfolio"
       />
-      <CardContent className={classes.content}>
-        <Button variant="body2" color="textPrimary" >
-          Resume <Receipt />
-        </Button>
-      </CardContent>
+
       <CardContent className={classes.content}>
         <Button variant="body2" color="textPrimary" onClick={() => window.open(git)} >
           Github <GitHub />
@@ -66,8 +61,11 @@ function Profile() {
           Email <EmailOutlinedIcon />
         </Button>
       </CardContent>
+      <CardContent className={classes.content}>
+        <Typography>Welcome to my portfolio</Typography>
+      </CardContent>
     </Card>
-  );
+  )
 }
 
 export default Profile;

@@ -8,7 +8,7 @@ import { Container } from '@material-ui/core'
 
 function Main() {
   return (
-    <Container>
+    <Container >
       <Navbar />
       <UpperMain />
       <LowerMain />
