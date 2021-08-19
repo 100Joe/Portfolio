@@ -26,7 +26,11 @@ export const Projects =
     },
     {
       "title": "Quick Note",
-      "description": "This project is intended to be a clone of amazon complete with working Stripe payments.",
+      "description": `Technologies: React, Material-UI, and JSON server. Quick notes allows users to create notes based on 4 categories(work, todo, reminder, and money).
+      Using the sidebar a user can look at their existing notes with My Notes and create a new note using the Create note button with Icon.
+      In the header we have the current date being displayed along with a name and Avatar that includes an image.
+      The notes present in the form of a card that shows an Avatar that displays the first letter of the category, next is the title stacked on the category, followed by the delete icon button, and the body shows on the bottom portion of the card.
+      The individual notes are stored in a local server using JSON.`,
       "image": "images/quickNotes.jpg",
       "Github": "https://github.com/100Joe/Quick-Notes",
       "website": "",
