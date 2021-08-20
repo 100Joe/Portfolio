@@ -19,9 +19,9 @@ export const Projects =
     {
       "title": "WackJack",
       "description": "This project is intended to be a clone of amazon complete with working Stripe payments.",
-      "image": "",
+      "image": "images/wackjack-netlify-app-home.jpg",
       "Github": "https://github.com/100Joe/WackJack",
-      "website": "",
+      "website": "https://wackjack.netlify.app/home",
       "id": 3
     },
     {
