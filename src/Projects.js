@@ -11,9 +11,9 @@ export const Projects =
     {
       "title": "Micro-Blog",
       "description": "This project is intended to be a clone of amazon complete with working Stripe payments.",
-      "image": "",
+      "image": "images/microblog.jpg",
       "Github": "https://github.com/100Joe/Micro-Blog",
-      "website": "",
+      "website": "https://miniblogforone.netlify.app/",
       "id": 2
     },
     {
