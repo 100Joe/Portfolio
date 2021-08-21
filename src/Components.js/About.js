@@ -21,7 +21,7 @@ const useStyles = makeStyles({
     borderStyle: 'solid'
   },
   title: {
-    fontSize: 14,
+    fontSize: 18,
     fontFamily: 'Share Tech, sans-serif'
   },
 });
@@ -32,7 +32,7 @@ function About() {
   return (
     <Card className={classes.root}>
       <CardContent>
-        <Typography className={classes.title} color="textPrimary" variant='button'>
+        <Typography className={classes.title} color="textPrimary" variant='h1'>
           Hello I'm <strong>Joseph</strong> it's great to meet you.
           I’m a Software developer, specializing in JavaScript and React. First started learning about HTML with Myspace but didn’t realize my passion for technology until 2020.
           This is when my JavaScript journey started and over the span of 2020 I was able to Brush up on my HTML, learn CSS, and learn JavaScript.
