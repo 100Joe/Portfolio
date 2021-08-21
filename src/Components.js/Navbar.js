@@ -33,7 +33,7 @@ function Navbar() {
       <Toolbar>
         <Typography className={classes.name}>Joseph.Edmonds</Typography>
         <Link to="section__project" className={classes.sectionLink} color="inherit">Projects</Link>
-        <Link to="section__about" className={classes.sectionLink} color="inherit">About</Link>
+        <Link to="section__about" className={classes.sectionLink} color="inherit">Resume</Link>
       </Toolbar>
     </AppBar>
   )
