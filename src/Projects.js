@@ -33,7 +33,7 @@ export const Projects =
       The individual notes are stored in a local server using JSON.`,
       "image": "images/quickNotes.jpg",
       "Github": "https://github.com/100Joe/Quick-Notes",
-      "website": "",
+      "website": "https://quicknotes-original.netlify.app/",
       "id": 4
     },
     {
